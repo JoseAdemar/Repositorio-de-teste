@@ -11,6 +11,10 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
+<<<<<<< HEAD
         return "Hello from RESTEasy Reactiveee";
+=======
+        return "Hello from RESTEasy Reativo";
+>>>>>>> 8dd3f088fc638ed9288b5926e316c815ffe026f0
     }
 }
